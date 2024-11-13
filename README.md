@@ -43,5 +43,5 @@
 
 4. Запуску всех тестов:
     ```bash
-        python -m unittest lab_with_number.TaskTestCase
+        python -m unittest lab<N>.task<M>.tests.unit_tests.TestCase
    ```
