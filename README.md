@@ -37,3 +37,11 @@
    ```
    cd Algorithms_and_Data_Structure
    ```
+3. Запуску всех лабараторных:
+    1. Введите входные данные в файл input.txt
+    2. Запустить файл task_with_number.py
+
+4. Запуску всех тестов:
+    ```bash
+        python -m unittest lab_with_number.TaskTestCase
+   ```

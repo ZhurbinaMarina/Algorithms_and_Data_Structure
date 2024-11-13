@@ -31,5 +31,5 @@
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
- python tests/unit_tests.py
+python -m unittest lab3.task_with_number.tests.unit_tests.TestCase
 ```
