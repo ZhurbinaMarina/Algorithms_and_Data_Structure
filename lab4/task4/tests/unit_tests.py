@@ -24,3 +24,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(result, right_answer, "Wrong answer")
         self.assertLessEqual(time, max_time, 'Time limit exceeded')
         print(f"Время выполнения: {time}")
+
+
+if __name__ == "__main__":
+    unittest.main()

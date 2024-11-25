@@ -33,11 +33,11 @@
    ```
 3. Запустите программу:
    ```bash
-   python src/task_10.py
+   python -m lab1.task10.src.task_10
    ```
 
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
- python tests/unit_tests.py
+python -m unittest discover -s lab1/task10 -p "*_tests.py"
 ```

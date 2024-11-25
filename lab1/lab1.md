@@ -32,5 +32,5 @@
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
- python tests/unit_tests.py
+python -m unittest discover -s lab1 -p "*_tests.py"
 ```

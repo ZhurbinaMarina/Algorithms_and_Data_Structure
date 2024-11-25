@@ -30,15 +30,15 @@
    ```
 2. Перейдите в папку с проектом:
    ```bash
-   cd Algorithms_and_Data_Structure/lab2
+   cd Algorithms_and_Data_Structure
    ```
 3. Запустите программу:
    ```bash
-   python src/task_4.py
+   python -m lab2.task4.src.task_4
    ```
 
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
- python tests/unit_tests.py
+python -m unittest discover -s lab2/task4 -p "*_tests.py"
 ```

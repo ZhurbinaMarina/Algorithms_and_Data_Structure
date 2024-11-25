@@ -31,5 +31,5 @@
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
-python -m unittest lab3.task<n>.tests.unit_tests.TestCase
+python -m unittest discover -s lab3 -p "*_tests.py"
 ```

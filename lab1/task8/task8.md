@@ -38,11 +38,11 @@ No more swaps needed.
    ```
 3. Запустите программу:
    ```bash
-   python src/task_8.py
+   python -m lab1.task8.src.task_8
    ```
 
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
- python tests/unit_tests.py
+ python -m unittest discover -s lab1/task8 -p "*_tests.py"
 ```
