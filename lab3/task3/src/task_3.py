@@ -1,4 +1,4 @@
-from lab3.utils import read_data_from_file, write_data_into_file, check_list_elems
+from lab3.utils import read_data_from_file, write_data_into_file, is_list_elems
 
 
 def scarecrow_sort(n, k, s):
@@ -26,7 +26,7 @@ def main(n, k, s):
         return "Введено некорректное значение n"
     if not (1 <= k <= 10 ** 5):
         return "Введено некорректное значение k"
-    if not check_list_elems(s, min_elem, max_elem):
+    if not is_list_elems(s, min_elem, max_elem):
         return "В массиве имеются числа неудовлетворяющие условию"
 
     result = [scarecrow_sort(n, k, s), scarecrow_sort(n, k, s[::-1])]

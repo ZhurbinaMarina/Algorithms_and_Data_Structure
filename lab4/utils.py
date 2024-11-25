@@ -17,6 +17,18 @@ def is_list_elems(arr, min_elem, max_elem):
     return True
 
 
+def is_elem(elem, min_elem, max_elem):
+    if min_elem <= elem <= max_elem:
+        return True
+    return False
+
+
+def is_len_line(s, min_len, max_len):
+    if min_len <= len(s) <= max_len:
+        return True
+    return False
+
+
 def measurement_of_time(func, *args):
     start_time = time()
     result = func(*args)

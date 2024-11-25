@@ -1,4 +1,4 @@
-from lab3.utils import read_data_from_file, write_data_into_file, check_list_elems
+from lab3.utils import read_data_from_file, write_data_into_file, is_list_elems
 
 
 # простой QuickSort
@@ -26,7 +26,7 @@ def main(n, s):
 
     if not (1 <= n <= 10 ** 4):
         return "Введено некорректное значение n"
-    if not check_list_elems(s, min_elem, max_elem):
+    if not is_list_elems(s, min_elem, max_elem):
         return "В массиве имеются числа неудовлетворяющие условию"
 
     quick_sort(s, 0, len(s) - 1)

@@ -1,4 +1,4 @@
-from lab3.utils import read_data_from_file, write_data_into_file, check_list_elems
+from lab3.utils import read_data_from_file, write_data_into_file, is_list_elems
 
 
 def main(s, p, segments, points):
@@ -9,10 +9,10 @@ def main(s, p, segments, points):
         return "Введено некорректное значение s"
     if not (1 <= p <= 5 * 10 ** 4):
         return "Введено некорректное значение p"
-    if not check_list_elems([elem[0] for elem in segments], min_elem, max_elem) or not check_list_elems(
+    if not is_list_elems([elem[0] for elem in segments], min_elem, max_elem) or not is_list_elems(
             [elem[1] for elem in segments], min_elem, max_elem):
         return "В массиве отрезков имеются числа неудовлетворяющие условию"
-    if not check_list_elems(points, min_elem, max_elem):
+    if not is_list_elems(points, min_elem, max_elem):
         return "В массиве точек имеются числа неудовлетворяющие условию"
 
     elems_with_type = []
