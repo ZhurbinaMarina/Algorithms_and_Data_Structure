@@ -23,12 +23,12 @@
    ```
 3. Запустите программу:
    ```bash
-   python -m lab4.task13.src.task_13_1
-   python -m lab4.task13.src.task_13_4
+   python -m lab4.task13_1.src.task_13_1
+   python -m lab4.task13_1.src.task_13_4
    ```
 
 ## Тестирование
 Для запуска тестов выполните:
 ```bash
-python -m unittest discover -s lab4/task13 -p "*_tests.py"
+python -m unittest discover -s lab4/task13_1 -p "*_tests.py"
 ```

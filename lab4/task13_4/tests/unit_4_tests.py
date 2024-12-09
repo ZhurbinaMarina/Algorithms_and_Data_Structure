@@ -1,5 +1,5 @@
 import unittest
-from lab4.task13.src.task_13_4 import DoublyLinkedList
+from lab4.task13_1.src.task_13_4 import DoublyLinkedList
 
 
 class TestDoublyLinkedList(unittest.TestCase):
