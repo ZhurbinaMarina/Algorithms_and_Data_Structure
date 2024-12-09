@@ -69,8 +69,8 @@ def main(n, data):
 
 
 if __name__ == "__main__":
-    data_file_path = "../txtf/input.txt"
-    output_file_path = "../txtf/output.txt"
+    data_file_path = "lab5/task6/txtf/input.txt"
+    output_file_path = "lab5/task6/txtf/output.txt"
 
     data = read_data_from_file(data_file_path)
     n = int(data.pop(0))

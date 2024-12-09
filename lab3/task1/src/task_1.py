@@ -34,8 +34,8 @@ def main(n, s):
 
 
 if __name__ == "__main__":
-    data_file_path = "../txtf/input.txt"
-    output_file_path = "../txtf/output.txt"
+    data_file_path = "lab3/task1/txtf/input.txt"
+    output_file_path = "lab3/task1/txtf/output.txt"
 
     data = read_data_from_file(data_file_path)
     n, s = int(data[0]), list(map(int, data[1].split()))

@@ -41,8 +41,8 @@ def main(s, p, segments, points):
 
 
 if __name__ == "__main__":
-    data_file_path = "../txtf/input.txt"
-    output_file_path = "../txtf/output.txt"
+    data_file_path = "lab3/task4/txtf/input.txt"
+    output_file_path = "lab3/task4/txtf/output.txt"
 
     data = read_data_from_file(data_file_path)
     s, p = map(int, data[0].split())

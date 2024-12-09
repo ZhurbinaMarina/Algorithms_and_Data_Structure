@@ -2,7 +2,7 @@ from lab1.utils import read_data_from_file, write_data_into_file, check_list_ele
 
 
 def main(n, s):
-    output_file_path = "../txtf/output.txt"
+    output_file_path = "lab1/task8/txtf/output.txt"
     min_elem = -10 ** 9
     max_elem = 10 ** 9
 
@@ -26,8 +26,8 @@ def main(n, s):
 
 
 if __name__ == "__main__":
-    data_file_path = "../txtf/input.txt"
-    output_file_path = "../txtf/output.txt"
+    data_file_path = "lab1/task8/txtf/input.txt"
+    output_file_path = "lab1/task8/txtf/output.txt"
 
     data = read_data_from_file(data_file_path)
     n, s = int(data[0]), list(map(int, data[1].split()))

@@ -29,8 +29,8 @@ def main(n, m, k, s):
 
 
 if __name__ == "__main__":
-    data_file_path = "../txtf/input.txt"
-    output_file_path = "../txtf/output.txt"
+    data_file_path = "lab3/task7/txtf/input.txt"
+    output_file_path = "lab3/task7/txtf/output.txt"
 
     data = read_data_from_file(data_file_path)
     n, m, k = map(int, data[0].split())
