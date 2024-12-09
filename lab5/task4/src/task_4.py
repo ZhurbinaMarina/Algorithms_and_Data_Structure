@@ -25,7 +25,6 @@ def heap_sort(n, arr):
     res = []
     for i in range(n // 2 - 1, -1, -1):
         heapify(n, arr, i, res)
-    print(arr)
     return res
 
 def main(n, data):
@@ -37,7 +36,6 @@ def main(n, data):
             return ["Введено некорректное значение элемента массива"]
 
     result = heap_sort(n, data)
-    print(result)
     return [str(len(result))] + result
 
 
