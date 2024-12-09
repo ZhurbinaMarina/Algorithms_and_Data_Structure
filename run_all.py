@@ -14,7 +14,7 @@ def run_lab(lab_number, lab_tasks_numbers):
         output_f = open(f'lab{lab_number}/task{task_number}/txtf/output.txt')
         output_data = '\n\t'.join([x.strip() for x in output_f.readlines()])
         print(f'OUTPUT.TXT:\n\t{output_data}')
-        print('------------------------------------------')
+        print('-------------------------------------')
 
 
 if __name__ == '__main__':
